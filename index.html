@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinyl Agencies Limited | Wine, Whisky, Vodka, Beer & More</title>
+  <meta name="description" content="Kenya's trusted beverage distributor. We supply premium wines, whiskies, vodka, gin, cognac, tequila, rum, liqueurs and non-alcoholic drinks. Order via WhatsApp today." />
+  <meta name="keywords" content="beverage distributor Kenya, wine Kenya, whisky Kenya, vodka Kenya, gin Kenya, cognac Kenya, tequila Kenya, rum Kenya, liqueur Kenya, alcohol distributor Nairobi" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Premium Beverage Distributors Kenya" />
+  <meta property="og:description" content="Kenya's trusted supplier of premium wines, spirits, and non-alcoholic beverages. Order via WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.co.ke/" />
+  <meta property="og:image" content="images/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo/vinyl-agencies-logo.png" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Vinyl Agencies Limited ",
+    "url": "https://yourdomain.co.ke",
+    "logo": "https://yourdomain.co.ke/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+254700000000",
+      "contactType": "Sales",
+      "areaServed": "KE",
+      "availableLanguage": "English"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nairobi",
+      "addressCountry": "KE"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="brand" aria-label="Home">
+        <img src="images/logo/vinyl-agencies-logo.png" alt="Vinyl Agencies Limited logo" width="48" height="48" class="logo-img" />
+        <span class="brand-name">Vinyl Agencies Limited</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Category navigation">
+        <ul>
+          <li><a href="#wine">Wine</a></li>
+          <li><a href="#whisky">Whisky</a></li>
+          <li><a href="#vodka">Vodka</a></li>
+          <li><a href="#gin">Gin</a></li>
+          <li><a href="#brandy">Brandy</a></li>
+          <li><a href="#tequila">Tequila</a></li>
+          <li><a href="#rum">Rum</a></li>
+          <li><a href="#liqueur">Liqueur</a></li>
+          <li><a href="#bitters">Bitters</a></li>
+          <li><a href="#non-alcoholic">Soft Drinks</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar-wrap">
+      <div class="search-bar-inner">
+        <label for="search-input" class="sr-only">Search products</label>
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="search-input" placeholder="Search products — wine, whisky, vodka…" autocomplete="off" />
+        <button class="search-clear" id="search-clear" aria-label="Clear search" hidden>✕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SEARCH RESULTS PANEL -->
+  <section class="search-results-section" id="search-results-section" aria-live="polite" hidden>
+    <div class="container">
+      <h2 class="search-results-title">Search Results</h2>
+      <div class="product-grid search-grid" id="search-results-grid"></div>
+      <p class="no-results-msg" id="no-results-msg" hidden>No products found. Try a different search term.</p>
+    </div>
+  </section>
+
+  <!-- HERO BANNER -->
+  <section class="site-hero" aria-label="Welcome banner">
+    <div class="site-hero-inner">
+      <p class="hero-eyebrow">Kenya's Trusted Distributor</p>
+      <h1>Premium Beverages,<br>Delivered with Excellence</h1>
+      <p class="hero-sub">From award-winning wines to world-class spirits — we supply hotels, restaurants, and retail outlets across Kenya with the finest selection of beverages.</p>
+      <a href="https://wa.me/254706601887?text=Hello%2C%20I%20would%20like%20to%20place%20an%20order." class="btn btn-primary btn-wa" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L.057 23.43a.5.5 0 0 0 .612.612l5.638-1.462A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.693-.503-5.237-1.382l-.374-.217-3.882 1.007 1.032-3.764-.235-.386A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Order via WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT: Category Sections rendered by JS -->
+  <main id="main-content" aria-label="Product catalogue">
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3 class="footer-brand">Vinyl Agencies Limited</h3>
+        <p>Kenya's trusted wholesale beverage distributor. We supply premium wines, spirits, and soft drinks to businesses across the country.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#wine">Wine</a></li>
+          <li><a href="#whisky">Whisky</a></li>
+          <li><a href="#vodka">Vodka</a></li>
+          <li><a href="#gin">Gin</a></li>
+          <li><a href="#brandy">Brandy &amp; Cognac</a></li>
+          <li><a href="#tequila">Tequila</a></li>
+          <li><a href="#rum">Rum</a></li>
+          <li><a href="#liqueur">Liqueur</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <address>
+          <p>📍 Nairobi, Kenya</p>
+          <p>📞 <a href="tel:+254706601887">+254 706 601 887</a></p>
+          <p>
+            <a href="https://wa.me/254706601887?text=Hello%2C%20I%20would%20like%20to%20place%20an%20order." class="footer-wa-link" target="_blank" rel="noopener noreferrer">
+              💬 Chat on WhatsApp
+            </a>
+          </p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="footer-year"></span> Vinyl Agencies Limited. All rights reserved. | Premium Beverage Distribution in Kenya</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
